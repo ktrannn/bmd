@@ -1,0 +1,119 @@
+
+// Text Utilities
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-ellipses {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-larger {
+	font-weight: 700;
+	font-size: 1.1em;
+}
+
+.text-smaller {
+	font-weight: 400;
+	font-size: 0.9em;
+}
+
+// Flex Utilities
+.df {
+	display: flex;
+}
+
+.jcc {
+	justify-content: center;
+}
+
+.jcsb {
+	justify-content: space-between;
+}
+
+.aic {
+	align-items: center;
+}
+
+// Display Utilities
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+.hidden-xxs-up {
+	display: none !important;
+}
+
+@include breakpoint(xxs) {
+
+	.hidden-xxs-down {
+		display: none !important;
+	}
+}
+
+@include breakpoint(minxxs) {
+
+	.hidden-xs-up {
+		display: none !important;
+	}
+}
+
+@include breakpoint(xs) {
+
+	.hidden-tablet-down {
+		display: none !important;
+	}
+}
+
+@include breakpoint(minxs) {
+
+	.hidden-tablet-up {
+		display: none !important;
+	}
+}
+
+@include breakpoint(sm) {
+
+	.hidden-sm-down {
+		display: none !important;
+	}
+}
+
+@include breakpoint(minsm) {
+
+	.hidden-md-up {
+		display: none !important;
+	}
+}
+
+@include breakpoint(md) {
+
+	.hidden-md-down {
+		display: none !important;
+	}
+}
+
+@include breakpoint(minmd) {
+
+	.hidden-lg-up {
+		display: none !important;
+	}
+}
+
+.hidden-lg-down {
+	display: none !important;
+}

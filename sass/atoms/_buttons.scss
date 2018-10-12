@@ -1,0 +1,14 @@
+.contact-button {
+    border: 2px solid $color_black;
+    padding: spacing(xs) spacing(sm);
+    color: $color_black;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: $font_title;
+
+    &:hover {
+        border: 2px solid $color_primary;
+        color: $color_primary;
+    }
+}
