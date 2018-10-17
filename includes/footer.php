@@ -4,8 +4,14 @@
       <div class="footer-container__information">
 		  <a href="index.php" class="footer-container__home-link">BM Digital Solutions</a>
 		  <div class="footer-container__contact-info">
-			  <a href="mailto:<?php echo $email_address;?>"><?php echo $email_address;?></a>
-			  <a href=""><?php echo $phone_number;?></a>
+				<div class="footer-container__contact-info__links">
+					<i class="fa fa-envelope"></i>
+					<a href="mailto:<?php echo $email_address;?>"><?php echo $email_address;?></a>
+				</div>	
+				<div class="footer-container__contact-info__links">
+					<i class="fa fa-phone"></i>
+					<a href=""><?php echo $phone_number;?></a>
+				</div>
 		  </div>
       </div>
       <div class="footer-container__social-links">
@@ -26,9 +32,9 @@
   </footer>
   <?php include('includes/header-nav.php'); ?>
   <?php include('includes/contact.php'); ?>
-  <script>
+	<script>
     AOS.init();
-  </script>
+	</script>
 </body>
 
 </html>

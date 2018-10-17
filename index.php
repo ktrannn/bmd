@@ -11,7 +11,7 @@
         <h3>We Take Care Of Your Marketing Needs So You Can Focus On Find Your Client’s Dream Home</h3>
     </div>
 
-    <div class="wrapper index-content__services" data-aos="slide-up" data-aos-duration="500">
+    <div class="wrapper card-wrapper index-content__services" data-aos="slide-up" data-aos-duration="500">
         <div class="card">
             <h4>Premium Websites</h4>
             <img src="assets/images/place-holder.png" alt="">
@@ -39,7 +39,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima quibusdam sapiente repudiandae voluptate numquam consequatur consequuntur praesentium temporibus quisquam.</p>
         </div>
 
-        <div class="index-content__usp__content">
+        <div class="card-wrapper">
             <div class="card" data-aos="fade-up" data-aos-duration="250">
                 <img src="assets/images/place-holder.png" alt="">
                 <h4>Data Driven Marketing</h4>

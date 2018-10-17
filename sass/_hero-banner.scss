@@ -1,5 +1,5 @@
 .hero-banner {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,17 +37,21 @@
 }
 
 .index-banner {
-    background-image: url("../../assets/images/image1.jpg");
+    background-image: url("../../assets/images/banners/index-banner.jpg");
 }
 
 .website-banner {
-    background-image: url("../../assets/images/image1.jpg");
+    background-image: url("../../assets/images/banners/website-banner.jpg");
 }
 
 .seo-banner {
-    background-image: url("../../assets/images/image1.jpg");
+    background-image: url("../../assets/images/banners/seo-banner.jpg");
 }
 
 .sem-banner {
-    background-image: url("../../assets/images/image1.jpg");
+    background-image: url("../../assets/images/banners/sem-banner.jpg");
+}
+
+.about-banner {
+    background-image: url("../../assets/images/banners/about-banner.jpg");
 }

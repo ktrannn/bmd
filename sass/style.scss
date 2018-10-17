@@ -3,7 +3,8 @@
 @import "base/mixins";
 @import "base/grid";
 @import "base/utilities";
-@import "atoms/buttons";
+@import "base/buttons";
+@import "base/card";
 
 // Base Styling
 @import "header";
@@ -12,6 +13,7 @@
 @import "index";
 @import "contact";
 @import "website";
+@import "about";
 
 // Page Styling
 @import "normalize";

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A starter theme for RED students, based on Underscores.",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.0",
     "gulp": "^4.0.0",
